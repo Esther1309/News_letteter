@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {background-color: #7cfc00;
+        border-color: black;
+        border-radius: 20px;
+        align-content: center;
+        justify-content: center;
+        filter: drop-shadow(7px 7px 3px black);
+
+    }
+</style>
+<body>
+    <center>
+        <form id="form">
+        <image src="Untitled.jpeg"></image>
+    <h1>The nature of the envronment</h1><br>
+        <label for="username" id="username">username</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password" id="password">password</label><br>
+        <input for="text" id="password" name="password"><br>
+    </form>
+</center>
+
+<p id="p1" class="red">paragraph</p>
+<!-- <button onclick="window.open('www.google.com', '_blank', 'height=200, width=200')">change color</button> -->
+
+<button onclick="window.close()">change color</button>
+
+</body>
+</html>
+
+<script>
+
+function btn1(){
+document.getElementById("p1").innerHTML = "the envronment";
+document.getElementById("p1").id="green";
+document.getElementById("green").style.backgroundColor ="red";
+}
+
+//btn1()
+
+
+</script>
+
